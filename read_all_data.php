@@ -1,7 +1,7 @@
 <?php
 // header function must use on top
 header('Content-Type: application/json'); //this file will return json format data to any browser, that using this header function. weather it is mysqli data or error data
-header('Acess-Control-Allow-Origin: *'); //Means it will give access to any device if we use *. if we want to acess particular any website we should put that website url name instead of *.
+header('Access-Control-Allow-Origin: *'); //Means it will give access to any device if we use *. if we want to acess particular any website we should put that website url name instead of *.
 
 include "database.php";
 
